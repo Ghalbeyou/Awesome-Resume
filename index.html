@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom styles for the resume template */
+    body {
+      background-color: #f9fafb;
+      color: #2d3748;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    .resume-section {
+      border-left: 4px solid #f56565;
+      padding-left: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .resume-section h2 {
+      font-size: 1.5rem;
+      color: #f56565;
+      margin-bottom: 1rem;
+    }
+
+    .skill-badge {
+      background-color: #ff7e67;
+      color: #ffffff;
+    }
+
+    .project-badge {
+      background-color: #47b881;
+      color: #ffffff;
+    }
+
+    .certification-badge {
+      background-color: #3182ce;
+      color: #ffffff;
+    }
+
+    .award-badge {
+      background-color: #9f7aea;
+      color: #ffffff;
+    }
+
+    .hobbies-badge {
+      background-color: #ff9f5f;
+      color: #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mx-auto p-6">
+    <div class="bg-white shadow-lg rounded-lg p-6">
+      <div class="flex justify-between">
+        <div>
+          <h1 class="text-4xl font-bold text-gray-900">Your Name</h1>
+          <p class="text-sm text-gray-600">Web Developer | Email@example.com | (123) 456-7890</p>
+        </div>
+        <div>
+          <img class="h-20 w-20 rounded-full" src="your_profile_picture.jpg" alt="Profile Picture">
+        </div>
+      </div>
+
+      <div class="mt-8">
+        <h2 class="text-2xl font-bold">Summary</h2>
+        <p class="mt-2 text-lg">A highly motivated web developer with a passion for creating clean and efficient code. Experienced in building responsive websites and web applications using the latest technologies.</p>
+      </div>
+
+      <div class="mt-8">
+        <h2 class="text-2xl font-bold">Education</h2>
+        <div class="mt-4">
+          <p class="font-bold">Bachelor of Computer Science</p>
+          <p class="text-gray-600">Your University Name, Graduation Year</p>
+        </div>
+      </div>
+
+      <div class="mt-8 resume-section">
+        <h2 class="text-2xl font-bold">Experience</h2>
+        <div class="mt-4">
+          <p class="font-bold">Web Developer Intern</p>
+          <p class="text-gray-600">Company Name, City | May 2022 - Aug 2022</p>
+          <ul class="list-disc list-inside mt-2">
+            <li>Developed and maintained company websites using HTML, CSS, and JavaScript.</li>
+            <li>Collaborated with the team to implement new features and enhancements.</li>
+            <li>Optimized website performance for better user experience.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-8 resume-section">
+        <h2 class="text-2xl font-bold">Skills</h2>
+        <div class="mt-4 grid grid-cols-3 gap-4">
+          <div class="skill-badge py-2 px-4 rounded-full text-center">HTML5</div>
+          <div class="skill-badge py-2 px-4 rounded-full text-center">CSS3</div>
+          <div class="skill-badge py-2 px-4 rounded-full text-center">JavaScript</div>
+          <div class="skill-badge py-2 px-4 rounded-full text-center">React.js</div>
+          <div class="skill-badge py-2 px-4 rounded-full text-center">Node.js</div>
+          <div class="skill-badge py-2 px-4 rounded-full text-center">Express.js</div>
+          <div class="skill-badge py-2 px-4 rounded-full text-center">Python</div>
+          <div class="skill-badge py-2 px-4 rounded-full text-center">SQL</div>
+          <div class="skill-badge py-2 px-4 rounded-full text-center">Git</div>
+          <!-- Add more skills here -->
+        </div>
+      </div>
+
+      <div class="mt-8 resume-section">
+        <h2 class="text-2xl font-bold">Projects</h2>
+        <div class="mt-4">
+          <p class="font-bold">Portfolio Website</p>
+          <p class="text-gray-600">Developed a personal portfolio website to showcase my projects and skills using React.js and Tailwind CSS.</p>
+        </div>
+        <div class="mt-4">
+          <p class="font-bold">E-commerce Web App</p>
+          <p class="text-gray-600">Created an e-commerce web application with Node.js, Express.js, and MongoDB to handle product listings and user authentication.</p>
+        </div>
+        <!-- Add more projects here -->
+      </div>
+
+      <div class="mt-8 resume-section">
+        <h2 class="text-2xl font-bold">Certifications</h2>
+        <div class="mt-4">
+          <p class="font-bold">Web Developer Certification</p>
+          <p class="text-gray-600">Certification Provider | Completion Date</p>
+        </div>
+        <div class="mt-4">
+          <p class="font-bold">React.js Fundamentals</p>
+          <p class="text-gray-600">Certification Provider | Completion Date</p>
+        </div>
+        <!-- Add more certifications here -->
+      </div>
+
+      <div class="mt-8 resume-section">
+        <h2 class="text-2xl font-bold">Awards</h2>
+        <div class="mt-4">
+          <p class="font-bold">Outstanding Performance Award</p>
+          <p class="text-gray-600">Company Name | Year</p>
+        </div>
+        <!-- Add more awards here -->
+      </div>
+
+      <div class="mt-8 resume-section">
+        <h2 class="text-2xl font-bold">Hobbies</h2>
+        <div class="mt-4">
+          <p class="font-bold">Photography</p>
+          <p class="text-gray-600">Passionate about capturing the beauty of nature and urban landscapes.</p>
+        </div>
+        <div class="mt-4">
+          <p class="font-bold">Traveling</p>
+          <p class="text-gray-600">Exploring new cultures and experiencing diverse cuisines.</p>
+        </div>
+        <!-- Add more hobbies here -->
+      </div>
+
+      <div class="mt-8 resume-section">
+        <h2 class="text-2xl font-bold">Languages</h2>
+        <div class="mt-4">
+          <p class="font-bold">English</p>
+          <p class="text-gray-600">Fluent</p>
+        </div>
+        <div class="mt-4">
+          <p class="font-bold">Spanish</p>
+          <p class="text-gray-600">Intermediate</p>
+        </div>
+        <!-- Add more languages here -->
+      </div>
+
+      <!-- Add more sections like Volunteer Experience, Achievements, etc. -->
+
+    </div>
+  </div>
+</body>
+
+</html>
