@@ -1,4 +1,4 @@
-🌟 **Awesome Open Source Resume Template** 🌟
+# 🌟 **Awesome Open Source Resume Template** 🌟
 
 
 🚀 Welcome to the Awesome Open Source Resume Template! 🚀
